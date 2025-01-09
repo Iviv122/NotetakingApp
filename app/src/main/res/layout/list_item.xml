@@ -11,12 +11,16 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:text="Sample text"
-        android:textSize="32sp" />
+        android:textSize="32sp"
+        android:id="@+id/list_item_title"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom |end"
         android:text="sample date"
-        android:textSize="16sp"></TextView>
+        android:textSize="16sp"
+        android:id="@+id/list_item_date"
+        ></TextView>
 </FrameLayout>

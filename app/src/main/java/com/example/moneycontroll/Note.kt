@@ -26,7 +26,7 @@ public class Note(nTitle : String, nDesription : String) {
     public fun getDesc() : String{
         return description
     }
-    public fun getDate() : LocalDateTime{
-        return createDate
+    public fun getDate() : String{
+        return createDate.toString()
     }
 }
