@@ -18,12 +18,13 @@ public class ListBaseAdapter(ncontext: Context, nlist : ArrayList<Note>) : BaseA
         return list.size
     }
     override fun getItem(pos : Int): Note{
-        return list.get(pos)
+        return list[pos]
     }
 
     override fun getItemId(p0: Int): Long {
         return p0.toLong()
     }
+
     override fun getView(position: Int, nconvertView: View?, parent: ViewGroup): View {
         val convertView = nconvertView ?: LayoutInflater.from(context).inflate(R.layout.list_item,parent,false)
 

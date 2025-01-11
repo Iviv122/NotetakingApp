@@ -12,12 +12,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/list"
         android:dividerHeight="2dp"
+        android:layout_margin="10dp"
         >
     </ListView>
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
         android:layout_gravity="end | bottom"
+        app:backgroundTint="@null"
+        android:background="@drawable/border"
         android:text="+"
         android:textSize="32sp" />
 </FrameLayout>
